@@ -1,16 +1,14 @@
-# Compiled class file
+# ==========================================
+# JAVA & COMPILACIÓN (GitHub Standard)
+# ==========================================
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
+hs_err_pid*
+replay_pid*
 
-# Package Files #
+# Paquetes y comprimidos
 *.jar
 *.war
 *.nar
@@ -19,6 +17,35 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# ==========================================
+# BUILD TOOLS (Maven, Gradle)
+# ==========================================
+/target/
+/build/
+.gradle/
+bin/
+out/
+
+# ==========================================
+# IDEs (IntelliJ, Eclipse, VS Code)
+# ==========================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# Visual Studio Code
+.vscode/
+
+# ==========================================
+# SISTEMA OPERATIVO & TEMPORALES
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini

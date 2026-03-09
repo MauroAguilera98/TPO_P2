@@ -22,3 +22,31 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# --- JAVA ---
+/target/
+/build/
+
+# --- INTELLIJ ---
+.idea/
+*.iml
+*.iws
+out/
+
+# --- ECLIPSE ---
+.metadata/
+.classpath
+.project
+.settings/
+
+# --- VS CODE ---
+.vscode/
+
+# --- SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
+
+# --- MAVEN/GRADLE ---
+.gradle/
+build/
+bin/
